@@ -9,7 +9,7 @@ def hello_world():
 @app.route('/download')
 def download_resume():
     resume_path = 'static/resume.pdf'
-    return send_file(resume_path, as_attachment=True, attachment_filename='resume.pdf')
+    return send_file(resume_path, as_attachment=True)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)

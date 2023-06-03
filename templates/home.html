@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
    <head>
+
       <link rel="icon"
          type="image/ico"
          href="static/favicon.ico">
@@ -11,153 +12,280 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
       <style>
-         *{
-         margin: 0;
-         padding: 0;
-         }
-         body{
-         background-color: rgb(14, 21, 37);
-         color:white;
-         font-family: 'Poppins', sans-serif;
-         }
-         nav{
-         display: flex;
-         justify-content: space-around;
-         align-items:center;
-         height: 55px;
-         background-color: rgb(28, 35, 51);
-         }
-         nav ul{
-         display: flex;
-         justify-content:center;
-         }
-         nav ul li{
-         list-style:none;
-         margin: 0 23px;
-         }
-         nav ul li a{
-         text-decoration:none;
-         color: white;
-         }
-         nav ul li a:hover{
-         color: rgb(87, 171, 255);
-         font-size:1.1rem;
-         }
-         .left{
-         font-size: 1.5rem;
-         }
-         .firstSection{
-         display:flex;
-         justify-content: space-around;
-         align-items: center;
-         margin: 170px 0;
-         }
-         .firstSection > div{
-         width: 35%;
-         }
-         .leftSection{
-         font-size: 2rem;
-         }
-         .leftSection .btn{
-         padding: 11px 26px;
-         background-color: #0e1525;
-         color: grey;
-         border: -3px solid white;
-         border-radius: 15px;
-         font-size: 1.1rem;
-         width: 8.2vw;
-         margin: 40px 7px;
-         cursor: pointer;
-         }
-         .rightSection img{
-         margin:20px 0;
-         }
-         .blue{
-         color: rgb(92, 101, 125);
-         }
-         #element{ 
-         color: rgb(92, 101, 125);
-         }
-         .secondSection{
-         max-width:80vw;
-         margin:auto;
-         height: 40vh;
-         }
-         .thirdSection .box{
-         background: white;
-         width:  80vw;
-         height: 2px;
-         margin: 56px 20px;
-         display:flex;
-         }     
-         .thirdSection .vertical{
-         background: white;
-         height: 90px;
-         width:  1px;
-         margin: 0px 190px;
-         }  
-         .thirdSection{
-         width:80vw;
-         margin:auto;
-         height: 60vh;
-         }
-         .fourthSection{
-         width:80vw;
-         margin:auto;
-         height: 60vh;
-         }
-         .fifthSection{
-         width:80vw;
-         margin:auto;
-         height: 60vh;
-         }
-         main hr{
-         border:0;
-         height:1px;
-         background: rgb(92, 101, 125);
-         margin: 40px 80px;
-         }
-         .text-gray{
-         color: gray ;
-         }
-         .vertTitle{
-         position: relative;
-         top:50px;
-         left:-50px;
-         width: 180px;
-         }
-         .vertDesc{
-         position: relative;
-         top:70px;
-         left:-50px;
-         font-size:0.5rem ;
-         width: 180px;
-         height:30vh;
-         color:gray;
-         }
-         .topImage{
-         height: 40px;;
-         width:40px;
-         position: relative;
-         top:-50px;
-         left:-19px;
-         }
-         footer{
-         background-color:#14171d;
-         }
-         .ffooter{
-         display:flex;
-         padding:25px 120px;
-         justify-content:space-evenly;
-         }
-         .ffooter ul{
-         list-style:none;
-         }
-         footer .footer-rights{
-         text-align:center;
-         color:gray;
-         padding: 12px 0;
-         } 
+        * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(14, 21, 37);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 55px;
+  background-color: rgb(28, 35, 51);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(87, 171, 255);
+  font-size: 1.1rem;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10vh 5vw;
+}
+
+.firstSection > div {
+  width: 35%;
+  max-width: 400px;
+}
+
+.leftSection {
+  font-size: 2rem;
+}
+
+.leftSection .btn {
+  padding: 11px 26px;
+  background-color: #0e1525;
+  color: white;
+  border: -3px solid white;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  width: fit-content;
+  margin: 40px 7px;
+  cursor: pointer;
+}
+
+.leftSection .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.leftSection .btn a:hover {
+  color: rgb(87, 171, 255);
+  font-size: 1.1rem;
+}
+
+.rightSection img {
+  margin: 20px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.blue {
+  color: rgb(92, 101, 125);
+}
+
+#element {
+  color: rgb(92, 101, 125);
+}
+
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 40vh;
+}
+
+.thirdSection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 10vh auto;
+  display: flex;
+}
+
+.thirdSection .vertical {
+  background: white;
+  height: 90px;
+  width: 1px;
+  margin: 0px auto;
+}
+
+.thirdSection {
+  width: 80vw;
+  margin: auto;
+  height: 60vh;
+}
+
+.fourthSection {
+  width: 80vw;
+  margin: auto;
+  height: 60vh;
+}
+
+.fifthSection {
+  width: 80vw;
+  margin: auto;
+  height: 60vh;
+}
+
+main hr {
+  border: 0;
+  height: 1px;
+  background: rgb(92, 101, 125);
+  margin: 5vh 8vw;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.vertTitle {
+  position: relative;
+  top: 5vh;
+  left: -5vw;
+  width: 180px;
+}
+
+.vertDesc {
+  position: relative;
+  top: 7vh;
+  left: -5vw;
+  font-size: 0.5rem;
+  width: 180px;
+  height: 30vh;
+  color: gray;
+}
+
+.topImage {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: -5vh;
+  left: -2vw;
+}
+
+footer {
+  background-color: #14171d;
+}
+
+.ffooter {
+  display: flex;
+  padding: 2.5vh 12vw;
+  justify-content: space-evenly;
+}
+
+.ffooter ul {
+  list-style: none;
+}
+
+footer .footer-rights {
+  text-align: center;
+  color: gray;
+  padding: 12px 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 900px) {
+  .firstSection {
+    margin: 5vh 5vw;
+  }
+
+  .firstSection > div {
+    width: 100%;
+  }
+
+  .leftSection .btn {
+    width: 100%;
+  }
+
+  .rightSection img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  main hr {
+    margin: 2vh 5vw;
+  }
+
+  .vertTitle {
+    top: 2vh;
+    left: -5vw;
+  }
+
+  .vertDesc {
+    top: 3vh;
+    left: -5vw;
+  }
+
+  footer .ffooter {
+    padding: 2.5vh 5vw;
+  }
+}
+
+@media (max-width: 600px) {
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  .firstSection {
+    margin: 2.5vh 2.5vw;
+  }
+
+  .leftSection .btn {
+    margin: 20px 0;
+  }
+
+  .rightSection img {
+    margin: 20px 0;
+  }
+
+  .thirdSection .box {
+    margin: 5vh auto;
+  }
+
+  .thirdSection .vertical {
+    margin: 0 auto;
+  }
+
+  main hr {
+    margin: 2vh 2.5vw;
+  }
+
+  .vertTitle {
+    top: 2vh;
+    left: -2.5vw;
+  }
+
+  .vertDesc {
+    top: 3vh;
+    left: -2.5vw;
+  }
+
+  footer .ffooter {
+    padding: 2.5vh 2.5vw;
+  }
+}
+ 
       </style>
    </head>
    <body>
@@ -183,8 +311,8 @@
                <div>
                   <span id="element"></span>
                   <div class="button">
-                     <button class="btn">Download Resume</button> 
-                     <button class="btn">My Linkedin</button> 
+                     <button class="btn"><a href="/download">Download Resume</a></button> 
+                    <button class="btn"><a href="https://www.linkedin.com/in/kartik-gupta-143858185/">My Linkedin</a></button>
                   </div>
                </div>
             </div>
