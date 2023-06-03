@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="icon"
+         type="image/ico"
+         href="static/favicon.ico">
+      <title>
+         Kartik Gupta
+      </title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+      <style>
+         *{
+         margin: 0;
+         padding: 0;
+         }
+         body{
+         background-color: rgb(14, 21, 37);
+         color:white;
+         font-family: 'Poppins', sans-serif;
+         }
+         nav{
+         display: flex;
+         justify-content: space-around;
+         align-items:center;
+         height: 55px;
+         background-color: rgb(28, 35, 51);
+         }
+         nav ul{
+         display: flex;
+         justify-content:center;
+         }
+         nav ul li{
+         list-style:none;
+         margin: 0 23px;
+         }
+         nav ul li a{
+         text-decoration:none;
+         color: white;
+         }
+         nav ul li a:hover{
+         color: rgb(87, 171, 255);
+         font-size:1.1rem;
+         }
+         .left{
+         font-size: 1.5rem;
+         }
+         .firstSection{
+         display:flex;
+         justify-content: space-around;
+         align-items: center;
+         margin: 170px 0;
+         }
+         .firstSection > div{
+         width: 35%;
+         }
+         .leftSection{
+         font-size: 2rem;
+         }
+         .leftSection .btn{
+         padding: 11px 26px;
+         background-color: #0e1525;
+         color: grey;
+         border: -3px solid white;
+         border-radius: 15px;
+         font-size: 1.1rem;
+         width: 8.2vw;
+         margin: 40px 7px;
+         cursor: pointer;
+         }
+         .rightSection img{
+         margin:20px 0;
+         }
+         .blue{
+         color: rgb(92, 101, 125);
+         }
+         #element{ 
+         color: rgb(92, 101, 125);
+         }
+         .secondSection{
+         max-width:80vw;
+         margin:auto;
+         height: 40vh;
+         }
+         .thirdSection .box{
+         background: white;
+         width:  80vw;
+         height: 2px;
+         margin: 56px 20px;
+         display:flex;
+         }     
+         .thirdSection .vertical{
+         background: white;
+         height: 90px;
+         width:  1px;
+         margin: 0px 190px;
+         }  
+         .thirdSection{
+         width:80vw;
+         margin:auto;
+         height: 60vh;
+         }
+         .fourthSection{
+         width:80vw;
+         margin:auto;
+         height: 60vh;
+         }
+         .fifthSection{
+         width:80vw;
+         margin:auto;
+         height: 60vh;
+         }
+         main hr{
+         border:0;
+         height:1px;
+         background: rgb(92, 101, 125);
+         margin: 40px 80px;
+         }
+         .text-gray{
+         color: gray ;
+         }
+         .vertTitle{
+         position: relative;
+         top:50px;
+         left:-50px;
+         width: 180px;
+         }
+         .vertDesc{
+         position: relative;
+         top:70px;
+         left:-50px;
+         font-size:0.5rem ;
+         width: 180px;
+         height:30vh;
+         color:gray;
+         }
+         .topImage{
+         height: 40px;;
+         width:40px;
+         position: relative;
+         top:-50px;
+         left:-19px;
+         }
+         footer{
+         background-color:#14171d;
+         }
+         .ffooter{
+         display:flex;
+         padding:25px 120px;
+         justify-content:space-evenly;
+         }
+         .ffooter ul{
+         list-style:none;
+         }
+         footer .footer-rights{
+         text-align:center;
+         color:gray;
+         padding: 12px 0;
+         } 
+      </style>
+   </head>
+   <body>
+      <header>
+      <nav>
+         <div class="left"> Kartik Gupta</div>
+         <div class="right">
+            <ul>
+               <li><a href="/">Hom/tiet</a></li>
+               <li><a href="/">Abou/linkedin</a></li>
+               <li><a href="/">Projects/Github</a></li>
+               <li><a href="/" >Contact Me/mail</a></li>
+            </ul>
+         </div>
+      </nav>
+      <main>
+         <section class="firstSection">
+            <div class="leftSection">
+               Hi, I am <span class="blue">Kartik Gupta</span>  
+               <div>
+                  a motivated & self-taught
+               </div>
+               <div>
+                  <span id="element"></span>
+                  <div class="button">
+                     <button class="btn">Download Resume</button> 
+                     <button class="btn">My Linkedin</button> 
+                  </div>
+               </div>
+            </div>
+            <div class="rightSection">
+               <img src="static/bg.png" height=100% width=100%>
+            </div>
+         </section>
+         <hr>
+         <section class="secondSection">
+            <span class="text-gray"><i>[Get to know me]</i></span>
+            <h1>About</h1>
+         </section>
+         <hr>
+         <section class="thirdSection">
+            <span class="text-gray"><i>[Things I have done so far]</i></span>
+            <h1>Work Experience & Projects</h1>
+            <div class="box">
+               <div class="vertical">
+                  <img class="topImage" src="static/drone.png" alt="">
+                  <div class="vertTitle">
+                     Research Intern
+                     (2020-2022)
+                  </div>
+                  <div class="vertDesc">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+               </div>
+               <div class="vertical">
+                  <img class="topImage" src="static/drone.png" alt="">
+                  <div class="vertTitle">
+                     Research Intern
+                     (2020-2022)
+                  </div>
+                  <div class="vertDesc">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+               </div>
+               <div class="vertical">
+                  <img class="topImage" src="static/drone.png" alt="">
+                  <div class="vertTitle">
+                     Research Intern
+                     (2020-2022)
+                  </div>
+                  <div class="vertDesc">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </div>
+               </div>
+            </div>
+         </section>
+         <hr>
+         <section class="fourthSection">
+            <span class="text-gray"><i>[I am proud of acheiving]</i></span>
+            <h1>Position of Responsibility & Achievements</h1>
+         </section>
+         <hr>
+         <section class="fifthSection">
+            <span class="text-gray"><i>[Reach out to me]</i></span>
+            <h1>Contact Me</h1>
+         </section>
+      </main>
+      <footer>
+         <div class="ffooter">
+            <div class="ffirst">
+               <h2>Quick Links</h2>
+            </div>
+            <div class="fsec">
+               <ul>
+                  <li>link1</li>
+                  <li>link2</li>
+                  <li>link3</li>
+               </ul>
+            </div>
+            <div class="fthird">
+               <ul>
+                  <li>link1</li>
+                  <li>link2</li>
+                  <li>link3</li>
+               </ul>
+            </div>
+         </div>
+         <div class="footer-rights">
+            Copyright &#169;kartiksportfolio.com | All rights reserved
+         </div>
+      </footer>
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+         var typed = new Typed('#element', {
+           strings: ['Computer Vision Engineer',  'Software Engineer','Algorithmic Trader','Python Web Developer'],
+           typeSpeed: 50,
+         });
+      </script>     
+   </body>
+</html>
