@@ -1,6 +1,6 @@
 # Kartik Gupta's Personal Portfolio Site
 
-This repository contains the source code and files for Kartik Gupta's personal portfolio site. The site is built using HTML, CSS, and Flask, and it showcases Kartik's skills, projects, and experience.
+This repository contains the source code and files for Kartik Gupta's personal portfolio site. The site is built using HTML, CSS, and Flask, and it showcases my skills, projects, and experience.
 
 ## Site URL
 
@@ -30,7 +30,6 @@ The project structure is organized as follows:
 - `app.py`: The main Flask application file.
 - `templates/`: Contains the HTML templates for each page of the site.
 - `static/`: Contains the CSS stylesheets, images, and other static files.
-- `data/`: Contains any data files or assets used in the site.
 
 ## Customizing the Portfolio Site
 
