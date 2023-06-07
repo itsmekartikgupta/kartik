@@ -36,8 +36,8 @@ The project structure is organized as follows:
 To customize the portfolio site with your own information and projects, you can make the following changes:
 
 1. Update the HTML templates in the `templates/` directory to reflect your personal details, skills, and projects.
-2. Modify the CSS stylesheets in the `static/css/` directory to customize the visual appearance of the site.
-3. Replace the images in the `static/images/` directory with your own profile picture and project screenshots.
+2. Modify the CSS stylesheets in the `static/` directory to customize the visual appearance of the site.
+3. Replace the images in the `static/` directory with your own profile picture and project screenshots.
 
 ## Deployment
 
