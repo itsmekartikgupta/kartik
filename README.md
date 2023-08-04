@@ -6,7 +6,7 @@ This repository contains the source code and files for Kartik Gupta's personal p
 
 The portfolio site is currently hosted on Render and can be accessed at the following URL:
 
-[https://kartik-cfdr.onrender.com/](https://kartik-cfdr.onrender.com/)
+[https://kartikgupta.onrender.com/](https://kartikgupta.onrender.com/)
 
 ## Technologies Used
 
